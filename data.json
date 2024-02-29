@@ -1,0 +1,708 @@
+{
+    "people": [
+        {
+            "id": 1,
+            "name": "Divya",
+            "dailyGoals": [
+                {
+                    "id": 1,
+                    "description": "Complete morning workout",
+                    "type": "Checkbox",
+                    "sublabel": "Exercise",
+                    "label": "Health",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-26T06:30:00",
+                        "notes": "Feeling great today!",
+                        "duration": 30
+                    }
+                },
+                {
+                    "id": 2,
+                    "description": "Take vitamins",
+                    "type": "Checkbox",
+                    "sublabel": "Medication",
+                    "label": "Health",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-26T07:00:00",
+                        "notes": "Vitamins taken!"
+                    }
+                },
+                {
+                    "id": 3,
+                    "description": "Drink 8 cups of water",
+                    "type": "Numeric",
+                    "sublabel": "Hydration",
+                    "label": "Health",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-26T08:00:00",
+                        "quantity": 8
+                    }
+                },
+                {
+                    "id": 4,
+                    "description": "Walk 10,000 steps",
+                    "type": "Numeric",
+                    "sublabel": "Exercise",
+                    "label": "Fitness",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-26T12:00:00",
+                        "quantity": 10000
+                    }
+                },
+                {
+                    "id": 5,
+                    "description": "Maintain blood pressure between 90-120",
+                    "type": "Range",
+                    "sublabel": "Health",
+                    "label": "Health",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-26T14:00:00",
+                        "range": [90, 120]
+                    }
+                },
+                {
+                    "id": 6,
+                    "description": "Keep weight between 150-160 lbs",
+                    "type": "Range",
+                    "sublabel": "Fitness",
+                    "label": "Fitness",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-26T16:00:00",
+                        "range": [150, 160]
+                    }
+                },
+                {
+                    "id": 7,
+                    "description": "Meditate for 15 minutes",
+                    "type": "Time Duration",
+                    "sublabel": "Meditation",
+                    "label": "Wellness",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-26T18:00:00",
+                        "duration": 15
+                    }
+                },
+                {
+                    "id": 8,
+                    "description": "Read for 30 minutes",
+                    "type": "Time Duration",
+                    "sublabel": "Reading",
+                    "label": "Hobby",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-26T19:00:00",
+                        "duration": 30
+                    }
+                },
+                {
+                    "id": 9,
+                    "description": "Complete 80% of daily tasks",
+                    "type": "Completion Percentage",
+                    "sublabel": "Productivity",
+                    "label": "Productivity",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-26T21:00:00",
+                        "percentage": 80
+                    }
+                },
+                {
+                    "id": 10,
+                    "description": "Achieve 50% completion on a project",
+                    "type": "Completion Percentage",
+                    "sublabel": "Project",
+                    "label": "Work",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-26T22:00:00",
+                        "percentage": 50
+                    }
+                },
+                {
+                    "id": 11,
+                    "description": "Did I practice gratitude today? (Yes/No)",
+                    "type": "Yes/No",
+                    "sublabel": "Gratitude",
+                    "label": "Wellness",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-26T23:00:00",
+                        "response": true
+                    }
+                },
+                {
+                    "id": 12,
+                    "description": "Did I avoid sugary snacks today? (Yes/No)",
+                    "type": "Yes/No",
+                    "sublabel": "Diet",
+                    "label": "Health",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-26T23:30:00",
+                        "response": false
+                    }
+                },
+                {
+                    "id": 13,
+                    "description": "Meal Choice: Breakfast, Lunch, or Dinner",
+                    "type": "Multiple Choice",
+                    "sublabel": "Meal",
+                    "label": "Health",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-27T08:00:00",
+                        "response": "Lunch"
+                    }
+                },
+                {
+                    "id": 14,
+                    "description": "Choose a workout type: Cardio, Strength, Flexibility",
+                    "type": "Multiple Choice",
+                    "sublabel": "Workout",
+                    "label": "Fitness",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-27T12:00:00",
+                        "response": "Cardio"
+                    }
+                },
+                {
+                    "id": 15,
+                    "description": "Journal about your day",
+                    "type": "Text Input",
+                    "sublabel": "Journaling",
+                    "label": "Wellness",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-27T21:00:00",
+                        "text": "Had a wonderful day!"
+                    }
+                },
+                {
+                    "id": 16,
+                    "description": "Write down three things you're grateful for",
+                    "type": "Text Input",
+                    "sublabel": "Gratitude",
+                    "label": "Wellness",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-27T22:00:00",
+                        "text": "Family, health, and opportunities."
+                    }
+                },
+                {
+                    "id": 17,
+                    "description": "Celebrate a personal achievement on a specific date",
+                    "type": "Date",
+                    "sublabel": "Achievement",
+                    "label": "Wellness",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-28T18:00:00"
+                    }
+                },
+                {
+                    "id": 18,
+                    "description": "Schedule and attend a self-care day",
+                    "type": "Date",
+                    "sublabel": "Self-Care",
+                    "label": "Wellness",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-29T10:00:00"
+                    }
+                },
+                {
+                    "id": 19,
+                    "description": "Complete a daily coding challenge",
+                    "type": "Custom",
+                    "sublabel": "Coding",
+                    "label": "Skill Development",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-03-01T14:00:00"
+                    }
+                },
+                {
+                    "id": 20,
+                    "description": "Accomplish a personal goal tailored to your needs",
+                    "type": "Custom",
+                    "sublabel": "Personal",
+                    "label": "Personal Growth",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-03-02T09:00:00"
+                    }
+                }
+            ],
+            "stats": {
+                "yearly": {
+                    "2024": {
+                        "totalGoalsCreated": 50,
+                        "totalGoalsCompleted": 15,
+                        "goalCategories": {
+                            "Health": {
+                                "totalGoalsCreated": 20,
+                                "totalGoalsCompleted": 8
+                            },
+                            "PersonalDevelopment": {
+                                "totalGoalsCreated": 15,
+                                "totalGoalsCompleted": 5
+                            },
+                            "Hobbies": {
+                                "totalGoalsCreated": 15,
+                                "totalGoalsCompleted": 2
+                            }
+                        },
+                        "progress": {
+                            "percentageCompleted": 30,
+                            "averageDailyCompletion": 0.05,
+                            "mostCompletedCategory": "Health"
+                        },
+                        "notes": [
+                            "John has been consistent in his Health goals.",
+                            "Increased focus needed on Hobbies category."
+                        ]
+                    }
+                },
+                "monthly": {
+                    "2024-02": {
+                        "totalGoalsCreated": 10,
+                        "totalGoalsCompleted": 3,
+                        "goalCategories": {
+                            "Health": {
+                                "totalGoalsCreated": 5,
+                                "totalGoalsCompleted": 1
+                            },
+                            "PersonalDevelopment": {
+                                "totalGoalsCreated": 3,
+                                "totalGoalsCompleted": 1
+                            },
+                            "Hobbies": {
+                                "totalGoalsCreated": 2,
+                                "totalGoalsCompleted": 1
+                            }
+                        },
+                        "progress": {
+                            "percentageCompleted": 30,
+                            "averageDailyCompletion": 0.1,
+                            "mostCompletedCategory": "Health"
+                        },
+                        "notes": [
+                            "John has increased his focus on Personal Development this month.",
+                            "Reminder: Hobbies category needs attention."
+                        ]
+                    }
+                },
+                "weekly": {
+                    "2024-W08": {
+                        "totalGoalsCreated": 5,
+                        "totalGoalsCompleted": 1,
+                        "goalCategories": {
+                            "Health": {
+                                "totalGoalsCreated": 2,
+                                "totalGoalsCompleted": 0
+                            },
+                            "PersonalDevelopment": {
+                                "totalGoalsCreated": 2,
+                                "totalGoalsCompleted": 1
+                            },
+                            "Hobbies": {
+                                "totalGoalsCreated": 1,
+                                "totalGoalsCompleted": 0
+                            }
+                        },
+                        "progress": {
+                            "percentageCompleted": 20,
+                            "averageDailyCompletion": 0.2,
+                            "mostCompletedCategory": "PersonalDevelopment"
+                        },
+                        "notes": [
+                            "John is on track with his Personal Development goals this week.",
+                            "Low completion in Health category; check in on his well-being."
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "id": 2,
+            "name": "Ajay",
+            "dailyGoals": [
+                {
+                    "id": 1,
+                    "description": "Complete morning workout",
+                    "type": "Checkbox",
+                    "sublabel": "Exercise",
+                    "label": "Health",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-26T06:30:00",
+                        "notes": "Feeling great today!",
+                        "duration": 30
+                    }
+                },
+                {
+                    "id": 2,
+                    "description": "Take vitamins",
+                    "type": "Checkbox",
+                    "sublabel": "Medication",
+                    "label": "Health",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-26T07:00:00",
+                        "notes": "Vitamins taken!"
+                    }
+                },
+                {
+                    "id": 3,
+                    "description": "Drink 8 cups of water",
+                    "type": "Numeric",
+                    "sublabel": "Hydration",
+                    "label": "Health",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-26T08:00:00",
+                        "quantity": 8
+                    }
+                },
+                {
+                    "id": 4,
+                    "description": "Walk 10,000 steps",
+                    "type": "Numeric",
+                    "sublabel": "Exercise",
+                    "label": "Fitness",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-26T12:00:00",
+                        "quantity": 10000
+                    }
+                },
+                {
+                    "id": 5,
+                    "description": "Maintain blood pressure between 90-120",
+                    "type": "Range",
+                    "sublabel": "Health",
+                    "label": "Health",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-26T14:00:00",
+                        "range": [90, 120]
+                    }
+                },
+                {
+                    "id": 6,
+                    "description": "Keep weight between 150-160 lbs",
+                    "type": "Range",
+                    "sublabel": "Fitness",
+                    "label": "Fitness",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-26T16:00:00",
+                        "range": [150, 160]
+                    }
+                },
+                {
+                    "id": 7,
+                    "description": "Meditate for 15 minutes",
+                    "type": "Time Duration",
+                    "sublabel": "Meditation",
+                    "label": "Wellness",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-26T18:00:00",
+                        "duration": 15
+                    }
+                },
+                {
+                    "id": 8,
+                    "description": "Read for 30 minutes",
+                    "type": "Time Duration",
+                    "sublabel": "Reading",
+                    "label": "Hobby",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-26T19:00:00",
+                        "duration": 30
+                    }
+                },
+                {
+                    "id": 9,
+                    "description": "Complete 80% of daily tasks",
+                    "type": "Completion Percentage",
+                    "sublabel": "Productivity",
+                    "label": "Productivity",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-26T21:00:00",
+                        "percentage": 80
+                    }
+                },
+                {
+                    "id": 10,
+                    "description": "Achieve 50% completion on a project",
+                    "type": "Completion Percentage",
+                    "sublabel": "Project",
+                    "label": "Work",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-26T22:00:00",
+                        "percentage": 50
+                    }
+                },
+                {
+                    "id": 11,
+                    "description": "Did I practice gratitude today? (Yes/No)",
+                    "type": "Yes/No",
+                    "sublabel": "Gratitude",
+                    "label": "Wellness",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-26T23:00:00",
+                        "response": true
+                    }
+                },
+                {
+                    "id": 12,
+                    "description": "Did I avoid sugary snacks today? (Yes/No)",
+                    "type": "Yes/No",
+                    "sublabel": "Diet",
+                    "label": "Health",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-26T23:30:00",
+                        "response": false
+                    }
+                },
+                {
+                    "id": 13,
+                    "description": "Meal Choice: Breakfast, Lunch, or Dinner",
+                    "type": "Multiple Choice",
+                    "sublabel": "Meal",
+                    "label": "Health",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-27T08:00:00",
+                        "response": "Lunch"
+                    }
+                },
+                {
+                    "id": 14,
+                    "description": "Choose a workout type: Cardio, Strength, Flexibility",
+                    "type": "Multiple Choice",
+                    "sublabel": "Workout",
+                    "label": "Fitness",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-27T12:00:00",
+                        "response": "Cardio"
+                    }
+                },
+                {
+                    "id": 15,
+                    "description": "Journal about your day",
+                    "type": "Text Input",
+                    "sublabel": "Journaling",
+                    "label": "Wellness",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-27T21:00:00",
+                        "text": "Had a wonderful day!"
+                    }
+                },
+                {
+                    "id": 16,
+                    "description": "Write down three things you're grateful for",
+                    "type": "Text Input",
+                    "sublabel": "Gratitude",
+                    "label": "Wellness",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-27T22:00:00",
+                        "text": "Family, health, and opportunities."
+                    }
+                },
+                {
+                    "id": 17,
+                    "description": "Celebrate a personal achievement on a specific date",
+                    "type": "Date",
+                    "sublabel": "Achievement",
+                    "label": "Wellness",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-28T18:00:00"
+                    }
+                },
+                {
+                    "id": 18,
+                    "description": "Schedule and attend a self-care day",
+                    "type": "Date",
+                    "sublabel": "Self-Care",
+                    "label": "Wellness",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-02-29T10:00:00"
+                    }
+                },
+                {
+                    "id": 19,
+                    "description": "Complete a daily coding challenge",
+                    "type": "Custom",
+                    "sublabel": "Coding",
+                    "label": "Skill Development",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-03-01T14:00:00"
+                    }
+                },
+                {
+                    "id": 20,
+                    "description": "Accomplish a personal goal tailored to your needs",
+                    "type": "Custom",
+                    "sublabel": "Personal",
+                    "label": "Personal Growth",
+                    "repeat": 1,
+                    "tracking": {
+                        "completed": 1,
+                        "timestamp": "2024-03-02T09:00:00"
+                    }
+                }
+            ],
+            "stats": {
+                "yearly": {
+                    "2024": {
+                        "totalGoalsCreated": 50,
+                        "totalGoalsCompleted": 15,
+                        "goalCategories": {
+                            "Health": {
+                                "totalGoalsCreated": 20,
+                                "totalGoalsCompleted": 8
+                            },
+                            "PersonalDevelopment": {
+                                "totalGoalsCreated": 15,
+                                "totalGoalsCompleted": 5
+                            },
+                            "Hobbies": {
+                                "totalGoalsCreated": 15,
+                                "totalGoalsCompleted": 2
+                            }
+                        },
+                        "progress": {
+                            "percentageCompleted": 30,
+                            "averageDailyCompletion": 0.05,
+                            "mostCompletedCategory": "Health"
+                        },
+                        "notes": [
+                            "John has been consistent in his Health goals.",
+                            "Increased focus needed on Hobbies category."
+                        ]
+                    }
+                },
+                "monthly": {
+                    "2024-02": {
+                        "totalGoalsCreated": 10,
+                        "totalGoalsCompleted": 3,
+                        "goalCategories": {
+                            "Health": {
+                                "totalGoalsCreated": 5,
+                                "totalGoalsCompleted": 1
+                            },
+                            "PersonalDevelopment": {
+                                "totalGoalsCreated": 3,
+                                "totalGoalsCompleted": 1
+                            },
+                            "Hobbies": {
+                                "totalGoalsCreated": 2,
+                                "totalGoalsCompleted": 1
+                            }
+                        },
+                        "progress": {
+                            "percentageCompleted": 30,
+                            "averageDailyCompletion": 0.1,
+                            "mostCompletedCategory": "Health"
+                        },
+                        "notes": [
+                            "John has increased his focus on Personal Development this month.",
+                            "Reminder: Hobbies category needs attention."
+                        ]
+                    }
+                },
+                "weekly": {
+                    "2024-W08": {
+                        "totalGoalsCreated": 5,
+                        "totalGoalsCompleted": 1,
+                        "goalCategories": {
+                            "Health": {
+                                "totalGoalsCreated": 2,
+                                "totalGoalsCompleted": 0
+                            },
+                            "PersonalDevelopment": {
+                                "totalGoalsCreated": 2,
+                                "totalGoalsCompleted": 1
+                            },
+                            "Hobbies": {
+                                "totalGoalsCreated": 1,
+                                "totalGoalsCompleted": 0
+                            }
+                        },
+                        "progress": {
+                            "percentageCompleted": 20,
+                            "averageDailyCompletion": 0.2,
+                            "mostCompletedCategory": "PersonalDevelopment"
+                        },
+                        "notes": [
+                            "John is on track with his Personal Development goals this week.",
+                            "Low completion in Health category; check in on his well-being."
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}
