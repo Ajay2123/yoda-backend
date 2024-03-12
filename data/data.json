@@ -3,7 +3,7 @@
         {
             "id": 1,
             "name": "Divya",
-            "dailyGoals": [
+            "goals": [
                 {
                     "id": 1,
                     "description": "Complete morning workout",
@@ -261,101 +261,12 @@
                         "timestamp": "2024-03-02T09:00:00"
                     }
                 }
-            ],
-            "stats": {
-                "yearly": {
-                    "2024": {
-                        "totalGoalsCreated": 50,
-                        "totalGoalsCompleted": 15,
-                        "goalCategories": {
-                            "Health": {
-                                "totalGoalsCreated": 20,
-                                "totalGoalsCompleted": 8
-                            },
-                            "PersonalDevelopment": {
-                                "totalGoalsCreated": 15,
-                                "totalGoalsCompleted": 5
-                            },
-                            "Hobbies": {
-                                "totalGoalsCreated": 15,
-                                "totalGoalsCompleted": 2
-                            }
-                        },
-                        "progress": {
-                            "percentageCompleted": 30,
-                            "averageDailyCompletion": 0.05,
-                            "mostCompletedCategory": "Health"
-                        },
-                        "notes": [
-                            "John has been consistent in his Health goals.",
-                            "Increased focus needed on Hobbies category."
-                        ]
-                    }
-                },
-                "monthly": {
-                    "2024-02": {
-                        "totalGoalsCreated": 10,
-                        "totalGoalsCompleted": 3,
-                        "goalCategories": {
-                            "Health": {
-                                "totalGoalsCreated": 5,
-                                "totalGoalsCompleted": 1
-                            },
-                            "PersonalDevelopment": {
-                                "totalGoalsCreated": 3,
-                                "totalGoalsCompleted": 1
-                            },
-                            "Hobbies": {
-                                "totalGoalsCreated": 2,
-                                "totalGoalsCompleted": 1
-                            }
-                        },
-                        "progress": {
-                            "percentageCompleted": 30,
-                            "averageDailyCompletion": 0.1,
-                            "mostCompletedCategory": "Health"
-                        },
-                        "notes": [
-                            "John has increased his focus on Personal Development this month.",
-                            "Reminder: Hobbies category needs attention."
-                        ]
-                    }
-                },
-                "weekly": {
-                    "2024-W08": {
-                        "totalGoalsCreated": 5,
-                        "totalGoalsCompleted": 1,
-                        "goalCategories": {
-                            "Health": {
-                                "totalGoalsCreated": 2,
-                                "totalGoalsCompleted": 0
-                            },
-                            "PersonalDevelopment": {
-                                "totalGoalsCreated": 2,
-                                "totalGoalsCompleted": 1
-                            },
-                            "Hobbies": {
-                                "totalGoalsCreated": 1,
-                                "totalGoalsCompleted": 0
-                            }
-                        },
-                        "progress": {
-                            "percentageCompleted": 20,
-                            "averageDailyCompletion": 0.2,
-                            "mostCompletedCategory": "PersonalDevelopment"
-                        },
-                        "notes": [
-                            "John is on track with his Personal Development goals this week.",
-                            "Low completion in Health category; check in on his well-being."
-                        ]
-                    }
-                }
-            }
+            ]
         },
         {
             "id": 2,
             "name": "Ajay",
-            "dailyGoals": [
+            "goals": [
                 {
                     "id": 1,
                     "description": "Complete morning workout",
@@ -613,96 +524,7 @@
                         "timestamp": "2024-03-02T09:00:00"
                     }
                 }
-            ],
-            "stats": {
-                "yearly": {
-                    "2024": {
-                        "totalGoalsCreated": 50,
-                        "totalGoalsCompleted": 15,
-                        "goalCategories": {
-                            "Health": {
-                                "totalGoalsCreated": 20,
-                                "totalGoalsCompleted": 8
-                            },
-                            "PersonalDevelopment": {
-                                "totalGoalsCreated": 15,
-                                "totalGoalsCompleted": 5
-                            },
-                            "Hobbies": {
-                                "totalGoalsCreated": 15,
-                                "totalGoalsCompleted": 2
-                            }
-                        },
-                        "progress": {
-                            "percentageCompleted": 30,
-                            "averageDailyCompletion": 0.05,
-                            "mostCompletedCategory": "Health"
-                        },
-                        "notes": [
-                            "John has been consistent in his Health goals.",
-                            "Increased focus needed on Hobbies category."
-                        ]
-                    }
-                },
-                "monthly": {
-                    "2024-02": {
-                        "totalGoalsCreated": 10,
-                        "totalGoalsCompleted": 3,
-                        "goalCategories": {
-                            "Health": {
-                                "totalGoalsCreated": 5,
-                                "totalGoalsCompleted": 1
-                            },
-                            "PersonalDevelopment": {
-                                "totalGoalsCreated": 3,
-                                "totalGoalsCompleted": 1
-                            },
-                            "Hobbies": {
-                                "totalGoalsCreated": 2,
-                                "totalGoalsCompleted": 1
-                            }
-                        },
-                        "progress": {
-                            "percentageCompleted": 30,
-                            "averageDailyCompletion": 0.1,
-                            "mostCompletedCategory": "Health"
-                        },
-                        "notes": [
-                            "John has increased his focus on Personal Development this month.",
-                            "Reminder: Hobbies category needs attention."
-                        ]
-                    }
-                },
-                "weekly": {
-                    "2024-W08": {
-                        "totalGoalsCreated": 5,
-                        "totalGoalsCompleted": 1,
-                        "goalCategories": {
-                            "Health": {
-                                "totalGoalsCreated": 2,
-                                "totalGoalsCompleted": 0
-                            },
-                            "PersonalDevelopment": {
-                                "totalGoalsCreated": 2,
-                                "totalGoalsCompleted": 1
-                            },
-                            "Hobbies": {
-                                "totalGoalsCreated": 1,
-                                "totalGoalsCompleted": 0
-                            }
-                        },
-                        "progress": {
-                            "percentageCompleted": 20,
-                            "averageDailyCompletion": 0.2,
-                            "mostCompletedCategory": "PersonalDevelopment"
-                        },
-                        "notes": [
-                            "John is on track with his Personal Development goals this week.",
-                            "Low completion in Health category; check in on his well-being."
-                        ]
-                    }
-                }
-            }
+            ]
         }
     ]
 }
