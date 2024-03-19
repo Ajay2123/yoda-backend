@@ -20,7 +20,7 @@
                 },
                 {
                     "id": 2,
-                    "description": "Take vitamins",
+                    "description": "Take vitamin D",
                     "type": "Checkbox",
                     "sublabel": "Medication",
                     "label": "Health",
@@ -33,7 +33,7 @@
                 },
                 {
                     "id": 3,
-                    "description": "Drink 8 cups of water",
+                    "description": "Drink 3.5 lts of water",
                     "type": "Numeric",
                     "sublabel": "Hydration",
                     "label": "Health",
@@ -46,7 +46,7 @@
                 },
                 {
                     "id": 4,
-                    "description": "Walk 10,000 steps",
+                    "description": "Walk/Workout for 20 mins",
                     "type": "Numeric",
                     "sublabel": "Exercise",
                     "label": "Fitness",
@@ -54,12 +54,12 @@
                     "tracking": {
                         "completed": 1,
                         "timestamp": "2024-02-26T12:00:00",
-                        "quantity": 10000
+                        "duration": 20
                     }
                 },
                 {
                     "id": 5,
-                    "description": "Maintain blood pressure between 90-120",
+                    "description": "Maintain body weight",
                     "type": "Range",
                     "sublabel": "Health",
                     "label": "Health",
@@ -67,7 +67,7 @@
                     "tracking": {
                         "completed": 1,
                         "timestamp": "2024-02-26T14:00:00",
-                        "range": [90, 120]
+                        "range": [70, 78]
                     }
                 },
                 {
@@ -98,7 +98,7 @@
                 },
                 {
                     "id": 8,
-                    "description": "Read for 30 minutes",
+                    "description": "Read for Swedish 30 minutes",
                     "type": "Time Duration",
                     "sublabel": "Reading",
                     "label": "Hobby",
