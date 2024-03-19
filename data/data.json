@@ -6,7 +6,7 @@
             "goals": [
                 {
                     "id": 1,
-                    "description": "Complete morning workout",
+                    "description": "Complete zumba",
                     "type": "Checkbox",
                     "sublabel": "Exercise",
                     "label": "Health",
