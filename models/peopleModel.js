@@ -1,4 +1,5 @@
-const { readDataFromFile, writeDataToFile } = require("../shared/fileHelper");
+const { readDataFromFile, writeDataToFile } = require("./fileHelper");
+const path = require("path");
 const PEOPLE_FILE_PATH = path.join(__dirname, "../data", "people.json");
 
 const getAllPeople = () => {

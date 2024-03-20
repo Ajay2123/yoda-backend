@@ -9,10 +9,10 @@ const goalsController = require("../controllers/goalsController");
 
 // Goals API
 router.get("/:personId", goalsController.getAllGoals);
-router.get("/:personId/:id", goalsController.getGoalById);
+router.get("/:personId/:goalId", goalsController.getGoalById);
 router.post("/:personId", goalsController.createGoal);
-router.put("/:personId/:id", goalsController.updateGoalById);
-router.delete("/:personId/:id", goalsController.deleteGoalById);
+router.put("/:personId/:goalId", goalsController.updateGoalById);
+router.delete("/:personId/:goalId", goalsController.deleteGoalById);
 
 // Global Error handling
 router.use(handleGlobalError);

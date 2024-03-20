@@ -1,5 +1,6 @@
 const { readDataFromFile, writeDataToFile } = require("./fileHelper");
 const { v4: uuidv4 } = require("uuid");
+const path = require("path");
 
 const GOALS_FILE_PATH = path.join(__dirname, "../data", "goals.json");
 
