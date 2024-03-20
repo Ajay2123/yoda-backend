@@ -2,7 +2,9 @@
 const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
-const routes = require("./routes/dataRoutes");
+const goals = require("./routes/goalsRoutes");
+const people = require("./routes/peopleRoutes");
+
 const app = express();
 const PORT = 3001;
 
@@ -14,6 +16,7 @@ app.listen(PORT, () => {
 });
 
 // Mounting the routes
-app.use("/api", routes);
+app.use("/people", people);
+app.use("/goals", goals);
 
 module.exports = app; // Export the Express app
