@@ -2,8 +2,10 @@
 const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
-const goals = require("./routes/goalsRoutes");
+
 const people = require("./routes/peopleRoutes");
+const goals = require("./routes/goalsRoutes");
+const dailyGoals = require("./routes/dailyGoalsRoutes");
 
 const app = express();
 const PORT = 3001;
@@ -18,5 +20,6 @@ app.listen(PORT, () => {
 // Mounting the routes
 app.use("/people", people);
 app.use("/goals", goals);
+app.use("/track", dailyGoals);
 
 module.exports = app; // Export the Express app

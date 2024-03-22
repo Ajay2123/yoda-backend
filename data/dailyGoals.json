@@ -1,0 +1,55 @@
+{
+    "dailyGoals": [
+        {
+            "id": "1",
+            "personId": "1",
+            "goalId": "1",
+            "completed": false,
+            "date": "2024-02-26",
+            "completionDetails": {
+                "checkboxValues": ["value1", "value2"]
+            }
+        },
+        {
+            "id": "2",
+            "personId": "1",
+            "goalId": "2",
+            "completed": false,
+            "date": "2024-02-26",
+            "completionDetails": {
+                "numericValue": 3
+            }
+        },
+        {
+            "id": "3",
+            "personId": "1",
+            "goalId": "3",
+            "completed": false,
+            "date": "2024-02-26",
+            "completionDetails": {
+                "completedYesNo": true
+            }
+        },
+        {
+            "id": "4",
+            "personId": "1",
+            "goalId": "4",
+            "completed": false,
+            "date": "2024-02-26",
+            "completionDetails": {
+                "selectedOption": "option1"
+            }
+        },
+        {
+            "id": "5",
+            "personId": "1",
+            "goalId": "5",
+            "completed": false,
+            "date": "2024-02-26",
+            "completionDetails": {
+                "numericValue": 5,
+                "quantity": 3
+            }
+        }
+    ]
+}
