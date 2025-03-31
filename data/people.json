@@ -2,12 +2,12 @@
     "people": [
         {
             "id": 1,
-            "name": "Divya",
+            "name": "John",
             "gender": "female"
         },
         {
             "id": 2,
-            "name": "Ajay",
+            "name": "Joe",
             "gender": "male"
         },
         {
